@@ -5,6 +5,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    min-height: 60vh;
 }
 .book {
     display: flex;
@@ -53,6 +54,5 @@ input {
 .myName p {
     font-family: "Road Rage", sans-serif;
     font-size: 25px;
-    position: fixed;
-    bottom: 0;
+
 }
