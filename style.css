@@ -1,0 +1,58 @@
+body {
+    background: rgb(246, 254, 230);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 55px;
+    color: rgb(89, 88, 113);
+    text-shadow:
+      -1px -1px 0 black,
+      1px -1px 0 black,
+      -1px 1px 0 black,
+      1px 1px 0 black;
+}
+a {
+    font-size: 35px;
+    text-decoration: none;
+    font-family: "Road Rage", sans-serif;
+    color: black;
+}
+.input {
+    display: flex;
+    justify-content: center;
+  
+}
+input {
+    width: 60%;
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Road Rage", sans-serif;
+    background: transparent;
+    border-radius: 25px;
+}
+.myName {
+    display: flex;
+    justify-content: center;
+}
+.myName p {
+    font-family: "Road Rage", sans-serif;
+    font-size: 25px;
+    position: fixed;
+    bottom: 0;
+}
